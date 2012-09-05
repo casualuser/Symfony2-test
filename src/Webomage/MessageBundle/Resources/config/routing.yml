@@ -1,0 +1,11 @@
+_homepage:
+    pattern:  /
+    defaults: { _controller: WebomageMessageBundle:Message:index }
+
+_msgform:
+    pattern:  /msgform/
+    defaults: { _controller: WebomageMessageBundle:Message:msgform }
+
+_msgformsubmit:
+    pattern:  /msgformsubmit/
+    defaults: { _controller: WebomageMessageBundle:Message:msgformsubmit }

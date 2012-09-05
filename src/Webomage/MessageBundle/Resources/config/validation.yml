@@ -1,0 +1,6 @@
+Webomage\MessageBundle\Form\MsgForm:
+    properties:
+        name:
+            - NotBlank: ~
+        email:
+            - NotBlank: ~
